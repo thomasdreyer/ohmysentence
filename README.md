@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# ReactJS Sentence Builder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This project is a ReactJS application designed to facilitate the creation of sentences by selecting words from predefined word types. It interacts with an API to fetch word lists and submit constructed sentences.
 
-## Available Scripts
+## Features
+- Select word types from a grid.
+- Display words of the selected type in a grid.
+- Add selected words to a sentence.
+- Submit the constructed sentence to an API.
 
-In the project directory, you can run:
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   ```
+2. Navigate to the project directory:
+```bash
+cd <project_directory>
+```
+3. Install dependencies:
+```bash
+npm install
+```
+4. Usage
+Start the development server:
+```bash
+npm start
+```
+Access the application in your web browser at http://localhost:3000.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Components
+#### App: Main container component managing application state and rendering child components.
+#### TypeGridComponent: Displays a grid of word types fetched from the API.
+#### WordGridComponent: Displays a grid of words based on the selected word type.
+#### AddWord: Component for adding new words to the API.
