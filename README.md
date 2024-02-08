@@ -1,5 +1,7 @@
 # OhMySentence
 
+https://thomasdreyer.github.io/ohmysentence
+
 ## Description
 This project is a ReactJS application designed to facilitate the creation of sentences by selecting words from predefined word types. It interacts with an API to fetch word lists and submit constructed sentences.
 
