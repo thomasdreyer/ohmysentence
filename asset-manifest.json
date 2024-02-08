@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ohmysentence/static/css/main.5914d992.css",
+    "main.js": "/ohmysentence/static/js/main.5bd46e60.js",
+    "static/js/787.952fe4c3.chunk.js": "/ohmysentence/static/js/787.952fe4c3.chunk.js",
+    "index.html": "/ohmysentence/index.html",
+    "main.5914d992.css.map": "/ohmysentence/static/css/main.5914d992.css.map",
+    "main.5bd46e60.js.map": "/ohmysentence/static/js/main.5bd46e60.js.map",
+    "787.952fe4c3.chunk.js.map": "/ohmysentence/static/js/787.952fe4c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5914d992.css",
+    "static/js/main.5bd46e60.js"
+  ]
+}
